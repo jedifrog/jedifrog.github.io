@@ -1,0 +1,46 @@
+html {
+	overflow: hidden;
+}
+
+iframe { 
+	border: 0; 
+    padding: 0;
+    margin: 0;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+      
+.message {
+	z-index: 999;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 59px;
+    background: #121315;
+    opacity: 0.8;
+    color: #fff;
+    padding: 5px;
+    font-size: 0.9em;
+    line-height: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.ui-widget {
+	font-size: 1.1em !important;
+}
+
+ul.social { list-style: none outside none; }
+ul.socal > li { display:inline; }
+li.share { line-height: 1.4; display: block;}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
